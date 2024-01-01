@@ -1,0 +1,395 @@
+@media  screen and (max-width:1440px) {
+    header{
+        padding: 20px 50px;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .nav ul {
+        gap: 65px;
+    }
+    #search-icon {
+        right: 10px;
+        top: 7px;
+        width: 42px;
+    }
+    #search-input {
+        padding: 20px 20px;
+    }
+    #card-input {
+        font-size: 15px;
+        padding: 15px 19px 18px 65px;
+    }
+    #card-icon {
+        left: 9px;
+        top: 7px;
+        width: 42px;
+    }
+    .nav ul li a {
+        font-size: 18px;
+    }
+    .hero-section {
+        padding: 0px 100px;
+    }
+    h1{
+        font-size: 65px;
+        line-height: 90px;
+    }
+    .hero-section button {
+        width: 220px;
+        padding: 25px 20px;
+    }
+    .home-second-section {
+        padding: 80px 50px 0px;
+    }
+    .home-second-section .natural {
+        min-width: 550px;
+        min-height: 300px;
+        padding: 0px 0px 0px 50px;
+    }
+    .home-second-section .offer {
+        min-width: 550px;
+        min-height: 300px;
+        padding: 0px 0px 0px 50px;
+    }
+    .home-second-section h4 {
+        font-size: 35px;
+        width: 235px;
+    }
+    .our-products-container {
+        padding: 80px 50px;
+    }
+    .products-container .pro img {
+        height: 200px;
+    }
+    .ratings img {
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .pro h4 {
+        font-size: 18px;
+    }
+    .price h6 {
+        font-size: 15px;
+    }
+    .normal {
+        width: 200px;
+        padding: 22px 25px;
+    }
+    .btn {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .newsletter h3 {
+        font-size: 45px;
+        width: 330px;
+    }
+    .footer h3 {
+        font-size: 25px;
+    }
+    h3 img {
+        width: 150px;
+    }
+    .footer .footer-utility-pages a {
+        font-size: 15px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    .footer .contact-details a {
+        font-size: 15px;
+    }
+    .footer .contact-details h5 {
+        font-size: 15px;
+    }
+    .newsletter {
+       width: 85%;
+       margin: auto;
+    }
+    .footer {
+        padding: 80px 50px;
+    }
+}
+@media  screen and (max-width:1200px) {
+    header {
+        padding: 20px 30px;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .nav ul li a {
+        font-size: 16px;
+    }
+    .home-second-section {
+        flex-direction: column;
+    }
+    .nav ul {
+        gap: 50px;
+    }
+    #search-input {
+        padding: 20px 0px;
+    }
+    #card-input {
+        display: none;
+    }
+    #card-icon {
+        left: -33px;
+        top: -21px;
+    }
+    .shopping-details {
+        gap: 40px;
+    }
+    small {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 55px;
+        line-height: 85px;
+        width: 500px;
+    }
+    .hero-section button {
+        width: 195px;
+        font-size: 18px;
+        padding: 20px 10px;
+    }
+    .our-products-container {
+        padding: 50px 30px;
+    }
+    .products-container .pro {
+        width: 30%;
+    }
+    .our-products-container h3 {
+        font-size: 45px;
+    }
+    .newsletter h3 {
+        font-size: 35px;
+    }
+    .subscribe input {
+        padding: 17px 18px;
+    }
+    .subscribe button {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    
+}
+@media screen and (max-width:991px) {
+    .nav{
+        display: none;
+    }
+    .close {
+        display: block;
+        position: absolute;
+        top: 25px;
+    }
+    .bar{
+        display: block;
+    }
+    .nav.active{
+        right: 0px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color:#ebefed;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, .2);
+        padding: 80px 0px 0px 20px;
+        z-index: 99;
+        transition: .5s ease-in-out;
+    }
+   
+    .nav ul{
+        flex-direction: column;
+    }
+    .hero-section {
+        padding: 0px 50px;
+    }
+    .our-products-container h3 {
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+    .products-container .pro {
+        width: 40%;
+    }
+    .products-container {
+        justify-content: center;
+    }
+    .normal{
+        width: 175px;
+        font-size: 18px;
+    }
+    .newsletter{
+        height: 35vh;
+        border-radius: 30px;
+        background-size: cover;
+    }
+    .newsletter h3 {
+        font-size: 25px;
+        width: 205px;
+    }
+    .footer {
+        padding:30px;
+        justify-content: space-between;
+    }
+    .footer h3 {
+        font-size: 20px;
+    }
+    .footer p{
+        width: 300px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .footer .contact-details a {
+        font-size: 14px;
+    }
+    .footer .footer-utility-pages a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:650px){
+    header {
+        padding: 20px 20px;
+    }
+    #search-input {
+        display: none;
+    }
+    #search-icon {
+        right: 2px;
+        width: 42px;
+        top: -20px;
+    }
+    .hero-section {
+        padding: 0px 20px;
+        background-position: top 0 right 50%;
+    }
+    small {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 65px;
+        width: 100%;
+    }
+    .hero-section button {
+        width: 165px;
+        font-size: 16px;
+    }
+    .home-second-section{
+        padding: 30px;
+    }
+    .home-second-section .offer {
+        min-width: 340px;
+        min-height: 186px;
+        padding: 0px 0px 0px 20px;
+    }
+    .home-second-section .natural{
+        min-width: 340px;
+        min-height: 186px;
+        padding: 0px 0px 0px 20px;
+    }
+    .home-second-section h4 {
+        font-size: 25px;
+        width: 200px;
+    }
+    .products-container .pro img {
+        height: 100%;
+    }
+    .normal {
+        width: 155px;
+        font-size: 15px;
+    }
+  
+    .newsletter {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        padding: 45px 20px;
+        flex-direction: column;
+    }
+    .newsletter h3 {
+        font-size: 25px;
+        width: max-content;
+        padding-bottom: 20px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: self-start;
+        row-gap: 15px;
+    }
+    .footer .footer-contact-us,.footer-organic {
+        text-align: left;
+    }
+    .footer p {
+        padding-bottom: 10px;
+    }
+    .footer h3 {
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width:400px) {
+    .products-container .pro {
+        width: 100%;
+    }
+}
+
+/* shop */
+@media screen and (max-width:1440px){
+    .banner{
+        background-size: cover;
+        font-size: 48px;
+    }
+}
+@media screen and (max-width:1200px){
+    .banner{
+        height: 40vh;
+    }
+}
+@media screen and (max-width:650px){
+    .banner{
+        font-size: 30px;
+    }
+}
+/* products */
+@media screen and (max-width:1200px){
+    .single-product-details {
+        padding: 80px 30px;
+    }
+    .product-description h4 {
+        font-size: 25px;
+    }
+    .product-description p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .product-img img {
+        height: 200px;
+    }
+    input#quantity {
+        width: 60px;
+        padding: 18px;
+    }
+}
+@media screen and (max-width:650px){
+    .single-product-details {
+        padding: 80px 20px;
+    }
+    .single-product-details {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .product-description {
+        width: 100%;
+    }
+    .normal {
+        width: 160px;
+    }
+    .cart span {
+        font-size: 16px;
+    }
+}
+
